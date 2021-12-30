@@ -1,0 +1,40 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+<link href="~/Content/Index.css" rel="stylesheet" />
+<div class="jumbotron">
+    <h1>DPS</h1>
+    <p class="lead">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum..</p>
+    <p><a>@Html.ActionLink("Learn More", "LearnMore")&raquo;</a></p>
+</div>
+
+<div class="row">
+    <div class="col-md-4">
+        <h2>Principle</h2>
+        <p>
+            There are many variations of passages of Lorem Ipsum available, 
+            but the majority have suffered alteration in some form, 
+            by injected humour, or randomised words which don't look even slightly believable.
+            If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text.
+        </p>
+        <p><a> @Html.ActionLink("Principle", "Index", "Home", new { area = "Principal" }, null)</a></p>
+    </div>
+    <div class="col-md-4">
+        <h2>DPS Teacher</h2>
+        <p>NuGet is a free Visual Studio extension that makes it easy to add, 
+        remove, and update libraries and tools in Visual Studio projects.</p>
+        <p><a>@Html.ActionLink("Staff", "Index", "Home", new { area = "Staff" }, null)&raquo;</a></p>
+    </div>
+    <div class="col-md-4">
+        <h2>DPS Staff</h2>
+        <p>You can easily find a web hosting company that offers the right mix of features and price for your applications.</p>
+        <p><a>@Html.ActionLink("Teacher", "Index", "Home", new { area = "Teacher" }, null)&raquo;</a></p>
+    </div>
+    <div class="col-md-4">
+        <h2>DPS Student</h2>
+        <p>You can easily find a web hosting company that offers the right mix of features and price for your applications.</p>
+        <p><a>@Html.ActionLink("Student", "Index", "Home", new { area = "Student" }, null)&raquo;</a></p>
+    </div>
+
+</div>
+</div>

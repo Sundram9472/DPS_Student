@@ -1,0 +1,12 @@
+﻿body {
+    //background-color: aqua;
+    background-image: url('../../Content/Image/Student.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+.row {
+    color: #fff;
+    background: rgba(0,0,0,0.6);
+    padding: 6px 11px;
+}
